@@ -2,14 +2,16 @@ import React from 'react';
 import Styled from 'styled-components';
 import PropTypes from 'prop-types';
 
+
 const StyledCustomInput = Styled.div`
     height: 100%;
     border: 1px solid rgba(228, 228, 228, 0.6);
     box-sizing: border-box;
-    border-radius: 5px;
+    // border-radius: 5px;
     display:flex;
     align-items: center;
-   margin-bottom : 20px;
+    margin-bottom : 20px;
+    width:400px
 input {
     outline:0;
     font-weight: 300;
