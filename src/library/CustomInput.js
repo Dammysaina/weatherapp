@@ -38,7 +38,7 @@ img {
     height:20px;
     padding: 0 20px ;
     position:absolute;
-    top:32px
+    top:112px
 }
 `;
 

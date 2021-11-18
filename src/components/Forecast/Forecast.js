@@ -16,7 +16,6 @@ export default class Forecast extends Component {
                     <ForecastCard/>
                     <ForecastCard/>
                     <ForecastCard/>
-                    <ForecastCard/>
                 </div>                
             </div>
         )
