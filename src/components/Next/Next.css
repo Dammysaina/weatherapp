@@ -1,0 +1,12 @@
+.nextFiveDays {
+    color: #ffffff;
+}
+.fiveDays {
+    display: flex;
+}
+.dayFive {
+    background-color: #8862FC;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    margin-left: 2rem;
+}
