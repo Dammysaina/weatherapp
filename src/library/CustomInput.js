@@ -10,8 +10,8 @@ const StyledCustomInput = Styled.div`
     display:flex;
     align-items: center;
     margin-bottom : 20px;
-    width:450px;
-    margin: 0 auto;
+    width: 56.1rem;
+    // margin: 0 auto;
 input {
     margin: 20px 50px 0 0px;
     outline:0;

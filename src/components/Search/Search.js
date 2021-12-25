@@ -7,7 +7,7 @@ export default class Search extends Component {
     render (){
         return (
             <div className="searchInput">
-                <CustomInput inputWidth="40rem" inputPlaceholder="Lagos, Nigeria" inputImage={`../images/Search.svg`}/>
+                <CustomInput inputWidth="60rem" inputPlaceholder="Lagos, Nigeria" inputImage={`../images/Search.svg`}/>
                 <Button className="searchButton" buttonWidth="9rem" buttonHeight="2.6rem">Search</Button>
             </div>
         )

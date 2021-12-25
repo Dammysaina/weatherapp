@@ -1,7 +1,6 @@
 .todaysForecast {
     color: #ffffff;
-    padding: 0 25rem;
-    margin-top: 2.5rem;
+    margin: 2.5rem 0;
 }
 .foreCast {
     padding: 0 1.2rem;
@@ -15,6 +14,7 @@
     box-sizing: border-box;
     border-radius: 20px;
     display: flex;
+    justify-content: space-between;
     padding: 3px 0px;
-    width: 500px;
+    width: 945px;
 }
