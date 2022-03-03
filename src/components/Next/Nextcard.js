@@ -1,15 +1,17 @@
-import React, {Component} from "react";
+import React from "react";
 
-export default class Nextcard extends Component {
+
+class Nextcard extends React.Component {
     render () {
         return (
             <div>
                 <div className="dateCard">
-                    <p>April 5 </p>
-                    <img src="../images/Sun.svg" alt="Sun"/>
-                    <p>28 &#8451;</p>
+                    <p>{this.props.name} </p>
+                    <img src={this.props.image} alt="Sun"/>
+                    <p>{this.props.degree}</p>
                 </div>
             </div>
         )
     }
 }
+export default Nextcard;
