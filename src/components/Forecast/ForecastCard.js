@@ -5,9 +5,9 @@ export default class ForecastCard extends Component {
         return (
             <div className="foreCast">
                 <div>
-                    <p>29 &#8451; </p>
-                    <img src="../images/Sun.svg" alt="Sun"/>
-                    <p>8 a.m</p>
+                    <p>{this.props.centigrate} </p>
+                    <img src={this.props.image} alt="Sun"/>
+                    <p>{this.props.time}</p>
                 </div>
             </div>
             
